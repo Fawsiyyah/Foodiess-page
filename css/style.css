@@ -14,3 +14,18 @@
     margin-top: 200px;
     margin-left: 90px;
 }
+
+#about-section .about {
+    background-image: url(../img/about-bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.row {
+    background-color: rgb(43, 42, 42);
+}
+
+/*.bg-gradient {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  }*/
