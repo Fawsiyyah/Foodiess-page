@@ -26,6 +26,13 @@
     background-color: rgb(43, 42, 42);
 }
 
+#events-section{
+    background-image: url(../img/events-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
 /*.bg-gradient {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
