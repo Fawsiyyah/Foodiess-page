@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-.restaurant {
-    margin-top: 200px;
-    margin-left: 90px;
-}
-
 #hero-section {
     background-image: url(../img/vegetables-prepared-baking-white-bowl-white-background_633696-49.webp);
    background-size: cover;
+}
+
+#contact-section {
+    background-image: url(../img/howcuttingdo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
