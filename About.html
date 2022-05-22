@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>About</title>
 </head>
 <body>
@@ -60,21 +61,21 @@
                             <a class="nav-link text-white" href="contact.html">Contact</a>
                         </li>
                     </ul>
-                    <button class="btn btn-outline-warning rounded-pill" type="submit"><span class="text-white">BOOK A TABLE</span></button>
+                    <button class="btn btn-outline-info rounded-pill" type="submit"><span class="text-white">BOOK A TABLE</span></button>
                 </div>
             </div>
         </nav>
     </div>
-    <section id="about-section">
+    <section id="about-section" class="bg-info py-5">
         <div class="container">
             <div class="row about">
-                <div class="col-lg-6 text-white pe-5">
+                <div class="col-lg-6 text-dark pe-5">
                     <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <ul class="list-unstyled">
-                        <li><i class="bi bi-check-circle text-warning"><span class="text-white">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></i></li>
-                        <li><i class="bi bi-check-circle text-warning"><span class="text-white"> Duis aute irure dolor in reprehenderit in voluptate velit.</span></i></li>
-                        <li><i class="bi bi-check-circle text-warning"><span class="text-white"> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></i></li>
+                        <li><i class="bi bi-check-circle text-white"><span class="text-dark">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></i></li>
+                        <li><i class="bi bi-check-circle text-white"><span class="text-dark"> Duis aute irure dolor in reprehenderit in voluptate velit.</span></i></li>
+                        <li><i class="bi bi-check-circle text-white"><span class="text-dark"> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></i></li>
                     </ul>
                     <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                 </div>
@@ -86,34 +87,36 @@
     </section>
 
             <section id="choose-us">
-                <div class="bg-dark py-5 px-5">
+                <div class="bg-secondary py-5 px-5">
                     <p class="text-white-50">WHY US</p>
-                    <h3 class="text-warning">Why Choose Our Restaurant</h3>
-                    <div class="row text-white chosen me-5">
-                        <div class="col-lg-4 bg-dark.bg-gradient pe-5 py-5">
-                            <span class="text-warning fs-2 fw-bold">01</span>
-                            <h3>Lorem Ipsum</h3>
-                            <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+                    <h3 class="text-info">Why Choose Foodiess</h3>
+                    <div class="reasons">
+                        <div class="row text-white">
+                            <div class="col-lg-4 bg-dark">
+                                <div class="text-info fs-2 fw-bold">01</div>
+                                <h3>Lorem Ipsum</h3>
+                                <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+                            </div>
+                            <div class="col-lg-4 bg-dark">
+                                <div class="text-info fs-2 fw-bold">02</div>
+                                <h3>Repellat Nihil</h3>
+                                <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>  
+                            </div>
+                            <div class="col-lg-4 bg-dark">
+                                <div class="text-info fs-2 fw-bold">03</div>
+                                <h3>Ad ad velit qui</h3>
+                                <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p> 
+                            </div>
                         </div>
-                        <div class="col-lg-4 bg-dark.bg-gradient pe-5 py-5">
-                            <span class="text-warning fs-2 fw-bold">02</span>
-                            <h3>Repellat Nihil</h3>
-                            <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>  
-                        </div>
-                        <div class="col-lg-4 bg-dark.bg-gradient pe-5 py-5">
-                            <span class="text-warning fs-2 fw-bold">03</span>
-                            <h3>Ad ad velit qui</h3>
-                            <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p> 
-                        </div>
-                    </div>
+                  </div>
                 </div>
             </section>
-            <section id="footer" class="chosen text-white pt-5">
+            <section id="footer" class="bg-dark text-white pt-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
                             <div class="footer-info">
-                              <h3>Restaurantly</h3>
+                              <h3 class="text-info">Restaurantly</h3>
                               <p>
                                 A108 Adam Street <br>
                                 NY 535022, USA<br><br>
@@ -130,7 +133,7 @@
                             </div>
                       </div>
                           <div class="col-lg-2 col-md-6 footer-links">
-                            <h4>Useful Links</h4>
+                            <h4  class="text-info">Useful Links</h4>
                             <ul class="list-unstyled">
                               <li><i class="bx bx-chevron-right"></i> <a href="index.html" class="text-white">Home</a></li>
                               <li><i class="bx bx-chevron-right"></i> <a href="About.html"  class="text-white">About us</a></li>
@@ -140,20 +143,20 @@
                             </ul>
                           </div>
                           <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Our Services</h4>
+                            <h4  class="text-info">Our Services</h4>
                             <ul class="list-unstyled">
-                              <li><i class="bx bx-chevron-right"></i> <a href="#"  class="text-white">Web Design</a></li>
-                              <li><i class="bx bx-chevron-right"></i> <a href="#"  class="text-white">Web Development</a></li>
-                              <li><i class="bx bx-chevron-right"></i> <a href="#"  class="text-white">Product Management</a></li>
-                              <li><i class="bx bx-chevron-right"></i> <a href="#"  class="text-white">Marketing</a></li>
-                              <li><i class="bx bx-chevron-right"></i> <a href="#"  class="text-white">Graphic Design</a></li>
+                              <li><i class="bx bx-chevron-right"></i> <a href="#"  class="text-white">All Kinds of Delicacies</a></li>
+                              <li><i class="bx bx-chevron-right"></i> <a href="#"  class="text-white">Pastries</a></li>
+                              <li><i class="bx bx-chevron-right"></i> <a href="#"  class="text-white">Tables for two</a></li>
+                              <li><i class="bx bx-chevron-right"></i> <a href="#"  class="text-white">Candle-light</a></li>
+                              <li><i class="bx bx-chevron-right"></i> <a href="#"  class="text-white">Small Chops</a></li>
                             </ul>
                           </div>
                           <div class="col-lg-4 col-md-6 footer-newsletter">
-                            <h4>Our Newsletter</h4>
+                            <h4  class="text-info">Our Newsletter</h4>
                             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
                             <form action="" method="post">
-                              <input type="email" name="email"><input type="submit" class="rounded-pill btn-warning" value="Subscribe">
+                              <input type="email" name="email"><input type="submit" class="rounded-pill btn-info" value="Subscribe">
                             </form>
                           </div>
                     </div>
@@ -162,7 +165,7 @@
             <section class="bg-dark">
                     <div class="container pt-3 pb-3 ">
                         <div class=" copyright text-white text-center">
-                          © Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
+                          &copy Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
                         </div>
                       </div>
             </section>
